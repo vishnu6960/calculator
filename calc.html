@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <title>calculator</title>
+</head>
+
+
+<body>
+    <div class="main">
+
+
+        <div id="row1">
+            <input type="text" name="ans" id="result">
+        </div>
+
+
+        <div class="row2">
+            <div class="row3">
+                <div class="button1">
+                    <button onclick="clear1()">AC</button>
+                </div>
+                <div class="button1">
+                    <button onclick="modulo()">%</button>
+                </div>
+                <div class="button1">
+                    <button onclick=""></button>
+                </div>
+                <div class="button1">
+                    <button onclick="divide()">/</button>
+                </div>
+            </div>
+
+
+            <div class="row3">
+                <div class="button1">
+                    <button onclick="run7()">7</button>
+                </div>
+                <div class="button1">
+                    <button onclick="run8()">8</button>
+                </div>
+                <div class="button1">
+                    <button onclick="run9()">9</button>
+                </div>
+                <div class="button1">
+                    <button onclick="multiply()">*</button>
+                </div>
+            </div>
+
+
+
+            <div class="row3">
+                <div class="button1">
+                    <button onclick="run4()">4</button>
+                </div>
+                <div class="button1">
+                    <button onclick="run5()">5</button>
+                </div>
+                <div class="button1">
+                    <button onclick="run6()">6</button>
+                </div>
+                <div class="button1">
+                    <button onclick="minus()">-</button>
+                </div>
+            </div>
+
+
+
+            <div class="row3">
+                <div class="button1">
+                    <button id="one" onclick="run1()">1</button>
+                </div>
+                <div class="button1">
+                    <button onclick="run2()">2</button>
+                </div>
+                <div class="button1">
+                    <button onclick="run3()">3</button>
+                </div>
+                <div class="button1">
+                    <button onclick="add()">+</button>
+                </div>
+            </div>
+
+
+
+            <div class="row3">
+                <div class="button1">
+                    <button onclick="run0()">0</button>
+                </div>
+                <div class="button1">
+                    <button onclick="runpoint()">.</button>
+                </div>
+                <div class="button1">
+                    <button onclick="back()">Back</button>
+                </div>
+                <div class="button1">
+                    <button onclick="result()">=</button>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="calc.js"></script>
+
+</body>
+</html>

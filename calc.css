@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}.main{
+    border: 1px solid black;
+    width: 400px;
+    height: 600px;
+}
+#row1{
+    border: 1px solid black;
+    width: 100%;
+    height: 40%;
+    font-size: 30px;
+    display: flex;
+}
+.row2{
+    border: 1px solid black;
+    width: 100%;
+    height: 60%;
+    background-color: black;
+
+}
+.row3{
+    height: 72px;
+    border: 1px solid black;
+    display: flex;
+}
+.row3 > div{
+    border: 1px solid black;
+    width: 100px;
+}
+button{
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    font-size: 30px;
+    background-color: grey;
+}
+.image1{
+    
+    height: 40px;
+}
+input{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    font-size: 30px;
+    /* display: flex; */
+    /* justify-content: flex-end; */
+}
+
+
+
